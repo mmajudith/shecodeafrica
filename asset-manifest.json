@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/shecodeafrica/static/css/main.de591de2.chunk.css",
+    "main.js": "/shecodeafrica/static/js/main.f2798968.chunk.js",
+    "main.js.map": "/shecodeafrica/static/js/main.f2798968.chunk.js.map",
+    "runtime-main.js": "/shecodeafrica/static/js/runtime-main.7aecabeb.js",
+    "runtime-main.js.map": "/shecodeafrica/static/js/runtime-main.7aecabeb.js.map",
+    "static/js/2.f0866ec7.chunk.js": "/shecodeafrica/static/js/2.f0866ec7.chunk.js",
+    "static/js/2.f0866ec7.chunk.js.map": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.map",
+    "index.html": "/shecodeafrica/index.html",
+    "precache-manifest.5ae59a7d0cff3ba947c42fc35d8b2953.js": "/shecodeafrica/precache-manifest.5ae59a7d0cff3ba947c42fc35d8b2953.js",
+    "service-worker.js": "/shecodeafrica/service-worker.js",
+    "static/css/main.de591de2.chunk.css.map": "/shecodeafrica/static/css/main.de591de2.chunk.css.map",
+    "static/js/2.f0866ec7.chunk.js.LICENSE.txt": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.LICENSE.txt",
+    "static/media/EstherJolugba.jpg": "/shecodeafrica/static/media/EstherJolugba.6a90f961.jpg",
+    "static/media/PeaceAmara.jpg": "/shecodeafrica/static/media/PeaceAmara.60d4c426.jpg",
+    "static/media/PreciousCadeton.jpg": "/shecodeafrica/static/media/PreciousCadeton.3a20be06.jpg",
+    "static/media/facebook.svg": "/shecodeafrica/static/media/facebook.3ae13bc8.svg",
+    "static/media/flag.svg": "/shecodeafrica/static/media/flag.8e7eeef6.svg",
+    "static/media/instagram.svg": "/shecodeafrica/static/media/instagram.c15b9152.svg",
+    "static/media/she-code-africa-logo.svg": "/shecodeafrica/static/media/she-code-africa-logo.ee93dc00.svg",
+    "static/media/shecodeafrica-landing-img.jpg": "/shecodeafrica/static/media/shecodeafrica-landing-img.45af3953.jpg",
+    "static/media/target.svg": "/shecodeafrica/static/media/target.1587fa1d.svg",
+    "static/media/twitter.svg": "/shecodeafrica/static/media/twitter.182d5ef4.svg",
+    "static/media/value.svg": "/shecodeafrica/static/media/value.4bed546b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7aecabeb.js",
+    "static/js/2.f0866ec7.chunk.js",
+    "static/css/main.de591de2.chunk.css",
+    "static/js/main.f2798968.chunk.js"
+  ]
+}
