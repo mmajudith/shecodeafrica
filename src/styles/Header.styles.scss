@@ -1,0 +1,83 @@
+.header-container{
+    width: 100%;
+    margin: auto auto;
+    .header-nav{
+        width: 97%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .header-logo{
+            margin: 20px 0px;
+        }
+        .list-items{
+            margin: 30px 0px;
+            ul li{
+                float: left;
+                margin: 10px 25px;
+                font-size: 18px;
+                font-weight: 700;
+                color:  hsl(255,6,51);
+                transition: 1s;
+            }
+            ul .home{
+                border-top: 2px solid lighten(#B70569, 30);
+                color: #B70569;
+                cursor: pointer;
+            }
+            ul .item:hover{
+                border-top: 2px solid lighten(#B70569, 30);
+                color: #B70569;
+                transform: scale(1.1);
+                cursor: pointer;
+            }
+        }
+        
+    }
+    .header-title{
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .title{
+            width: 50%;
+            color: rgb(183, 5, 105);;
+            font-weight: 900;
+            font-family: sans-serif;
+            margin: 60px 0px 90px 0px;
+        
+            h1{
+                font-size: 55px;
+            }
+            p{
+                font-size: 20px;
+                padding: 20px 0px;
+            }
+            .join-us{
+                margin-top: 20px;
+                button{
+                padding: 10px 30px;
+                color: #B70569;
+                border: 1px solid #B70569;
+                border-radius: 5px;
+                font-size: 18px;
+                background-color: #FFF;
+                font-weight: 600;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    box-shadow: 0px 10px 10px lighten(#B70569, 30) ;
+                }
+            }
+        }
+
+        }
+        .illustration{
+            margin-top: 20px;
+            margin-bottom: -10px;
+        }
+    }
+}

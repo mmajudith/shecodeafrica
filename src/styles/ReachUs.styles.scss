@@ -1,0 +1,74 @@
+.reach-us-wrapper{
+    width: 100%;
+    margin: 50px auto;
+    color: #000000;
+    div h2{
+        width: 50%;
+        margin: 30px auto;
+        text-align: center;
+        font-weight: 900;
+        font-family: sans-serif;
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+    .activities-wrapper{
+        width: 85%;
+        margin: auto auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .slack,.social-media,.event,.sponsor{
+            width: (90% / 4); 
+            p{
+                line-height: 21px;
+            }
+            .pad-top{
+                padding-top: 15px;
+            }
+            .join{
+                color: #B70569;
+                font-size: 18px;
+                margin: 20px 0px;
+                letter-spacing: 1px;
+                line-height: normal;
+                
+            }
+            button{  
+                padding: 10px 25px;
+                color: #B70569;
+                border: 1px solid #B70569;
+                border-radius: 5px;
+                font-size: 18px;
+                background-color: #FFF;
+                font-weight: 500;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    box-shadow: 0px 10px 10px lighten(#B70569, 30) ;
+                }    
+        }
+        }
+        .slack{
+            button{
+                margin: 30px 0px;
+            }
+        }
+        .social-media{
+            button{
+                margin: 40px 0px;
+            }
+        }
+        .event{
+            button{
+                margin: 60px 0px;
+            }
+        }
+        .sponsor{
+            button{
+                margin: 42px 0px;
+            }
+        }
+    }
+}

@@ -1,0 +1,34 @@
+@import "./styles/font.css";
+@import "./styles/Header.styles.scss";
+@import "./styles/Objectives.styles.scss";
+@import "./styles/ReachUs.styles.scss";
+@import "./styles/Testimonials.style.scss";
+@import "./styles/Form.styles.scss";
+@import "./styles/Footer.style.scss";
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Raleway', sans-serif; 
+    font-size: 14px;
+    font-weight: normal; 
+}
+
+.App{
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: auto auto;
+    background-color:hsl(0,0,100);
+    
+}
+
+li{
+    list-style-type: none;
+}
+
+

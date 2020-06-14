@@ -1,0 +1,76 @@
+form{
+    width: 85%;
+    margin: 120px auto 40px;
+    fieldset{
+        border: 1px solid #B70569 ;
+        border-radius: 5px;
+        legend{
+            text-align: center;
+            font-family: sans-serif;
+            color: #000000;
+            font-weight: 900;
+            letter-spacing: 3px;
+            padding: 13px;
+            font-size: 18px;
+        }
+        .input-wrapper{
+            width: 75%;
+            margin: 80px auto 20px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            input{
+                width: 55%;
+                height: 30px;
+                border-radius: 5px;
+                border: 2px solid lighten(hsl(255,6,51), 35);
+                padding: 10px 0px 10px 8px;
+                font-size: 14px;
+                color: hsl(255,6,51)
+            }
+            .fullname{
+                margin-right: 10px;
+            }
+            .email{
+                margin-left: 20px;
+                
+            }
+        }
+        .text-area{
+            width: 75%;
+            margin: 30px auto;
+            textarea{
+                width: 98%;
+                height: 100px;
+                padding: 10px 0px 0px 10px;
+                font-size: 18px;
+                border-radius: 5px;
+                color: hsl(255,6,51);
+                border: 2px solid lighten(hsl(255,6,51), 35);
+            }
+        }
+        .submit-btn{
+            width: 70%;
+            margin: 50px auto 30px;
+            text-align: center;
+            button{
+                padding: 13px 70px;
+                color: #B70569;
+                border: 1px solid #B70569;
+                border-radius: 5px;
+                font-size: 18px;
+                background-color: #FFF;
+                font-weight: 500;
+                transition: 1s;
+                &:hover{
+                    cursor: pointer;
+                    border: none;
+                    outline: none;
+                    box-shadow: 0px 10px 10px lighten(#B70569, 30) ;
+                } 
+            }
+        }
+        
+    }
+    
+}
