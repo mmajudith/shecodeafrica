@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed58740a57d23147496489eb8364d154",
+    "revision": "937abab69f3fc1c13c8b3decda85fe1b",
     "url": "/shecodeafrica/index.html"
   },
   {
-    "revision": "da0148c1488cece03030",
-    "url": "/shecodeafrica/static/css/main.de591de2.chunk.css"
+    "revision": "18ee33658201ec45bd37",
+    "url": "/shecodeafrica/static/css/main.70d0ba93.chunk.css"
   },
   {
     "revision": "b969fb5b1e218e241361",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "da0148c1488cece03030",
-    "url": "/shecodeafrica/static/js/main.f2798968.chunk.js"
+    "revision": "18ee33658201ec45bd37",
+    "url": "/shecodeafrica/static/js/main.551466e4.chunk.js"
   },
   {
     "revision": "a6dc7d51dff139292c21",

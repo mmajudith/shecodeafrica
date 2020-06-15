@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shecodeafrica/static/css/main.de591de2.chunk.css",
-    "main.js": "/shecodeafrica/static/js/main.f2798968.chunk.js",
-    "main.js.map": "/shecodeafrica/static/js/main.f2798968.chunk.js.map",
+    "main.css": "/shecodeafrica/static/css/main.70d0ba93.chunk.css",
+    "main.js": "/shecodeafrica/static/js/main.551466e4.chunk.js",
+    "main.js.map": "/shecodeafrica/static/js/main.551466e4.chunk.js.map",
     "runtime-main.js": "/shecodeafrica/static/js/runtime-main.7aecabeb.js",
     "runtime-main.js.map": "/shecodeafrica/static/js/runtime-main.7aecabeb.js.map",
     "static/js/2.f0866ec7.chunk.js": "/shecodeafrica/static/js/2.f0866ec7.chunk.js",
     "static/js/2.f0866ec7.chunk.js.map": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.map",
     "index.html": "/shecodeafrica/index.html",
-    "precache-manifest.5ae59a7d0cff3ba947c42fc35d8b2953.js": "/shecodeafrica/precache-manifest.5ae59a7d0cff3ba947c42fc35d8b2953.js",
+    "precache-manifest.10482bcc8a63b703791ed620e7f88dd9.js": "/shecodeafrica/precache-manifest.10482bcc8a63b703791ed620e7f88dd9.js",
     "service-worker.js": "/shecodeafrica/service-worker.js",
-    "static/css/main.de591de2.chunk.css.map": "/shecodeafrica/static/css/main.de591de2.chunk.css.map",
+    "static/css/main.70d0ba93.chunk.css.map": "/shecodeafrica/static/css/main.70d0ba93.chunk.css.map",
     "static/js/2.f0866ec7.chunk.js.LICENSE.txt": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.LICENSE.txt",
     "static/media/EstherJolugba.jpg": "/shecodeafrica/static/media/EstherJolugba.6a90f961.jpg",
     "static/media/PeaceAmara.jpg": "/shecodeafrica/static/media/PeaceAmara.60d4c426.jpg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.7aecabeb.js",
     "static/js/2.f0866ec7.chunk.js",
-    "static/css/main.de591de2.chunk.css",
-    "static/js/main.f2798968.chunk.js"
+    "static/css/main.70d0ba93.chunk.css",
+    "static/js/main.551466e4.chunk.js"
   ]
 }
