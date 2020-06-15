@@ -7,9 +7,8 @@
         margin: 30px auto;
         text-align: center;
         font-weight: 900;
-        font-family: sans-serif;
         font-size: 30px;
-        letter-spacing: 1px;
+        letter-spacing: 3px;
     }
     .activities-wrapper{
         width: 85%;
@@ -23,7 +22,7 @@
                 line-height: 21px;
             }
             .pad-top{
-                padding-top: 15px;
+                padding-top: 16px;
             }
             .join{
                 color: #B70569;
@@ -31,7 +30,7 @@
                 margin: 20px 0px;
                 letter-spacing: 1px;
                 line-height: normal;
-                
+                font-weight: 500;
             }
             button{  
                 padding: 10px 25px;
@@ -41,33 +40,32 @@
                 font-size: 18px;
                 background-color: #FFF;
                 font-weight: 500;
-                transition: 1s;
+                transition: all 1s;
                 &:hover{
                     cursor: pointer;
                     border: none;
-                    outline: none;
-                    box-shadow: 0px 10px 10px lighten(#B70569, 30) ;
+                    box-shadow: 0px 5px 5px #B70569 ;
                 }    
         }
         }
         .slack{
             button{
-                margin: 30px 0px;
+                margin: 24px 0px;
             }
         }
         .social-media{
             button{
-                margin: 40px 0px;
+                margin: 29px 0px;
             }
         }
         .event{
             button{
-                margin: 60px 0px;
+                margin: 47px 0px;
             }
         }
         .sponsor{
             button{
-                margin: 42px 0px;
+                margin: 29px 0px;
             }
         }
     }

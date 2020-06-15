@@ -34,7 +34,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="illustration-wrapper">
-                    <img src={Illust} alt="Illustration of woman on desktop" className="illustration" width="450px" height="400px"/>
+                    <img src={Illust} alt="Illustration of woman on desktop" className="illustration" width="450px" height="450px"/>
                 </div>
            </div>
 

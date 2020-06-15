@@ -1,6 +1,6 @@
 .Testimonials-wrapper{
     width: 85%;
-    margin:  0px auto 70px ;
+    margin:  auto auto;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -9,35 +9,38 @@
     .first-testi-wrapper,.second-testi-wrapper,.third-testi-wrapper{
         position: relative;
         padding: 50px 20px ;
-        width: ( 85% / 3);
+        width: ( 100% / 3);
         text-align: center;
         border-radius: 5px;
+        padding: 40px ;
         box-shadow: 0px 0px 10px lighten(#B70569, 55);
         line-height: 25px;
         .name{
-            font-weight: 900;
+            font-weight: 600;
             font-size: 18px;
         }
         img{
             border-radius: 60px;
             position: absolute;
-            top: 335px;
+            top: 350px;
             left: 140px;
         }
     }
     .first-testi-wrapper{
+        margin-right: 30px;
         .name{
-            padding: 20px 0px 40px;
+            padding: 5px 0px 40px;
         }
     }
     .second-testi-wrapper{
         .name{
-            padding: 20px 0px 40px;
+            padding: 30px 0px 40px;
         }
     }
     .third-testi-wrapper{
+        margin-left: 30px;
         .name{
-            padding: 95px 0px 40px;
+            padding: 105px 0px 40px;
         }
     }
 }

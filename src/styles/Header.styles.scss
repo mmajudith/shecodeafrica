@@ -15,18 +15,18 @@
             ul li{
                 float: left;
                 margin: 10px 25px;
+                font-weight: 600;
                 font-size: 18px;
-                font-weight: 700;
-                color:  hsl(255,6,51);
-                transition: 1s;
+                color:  #8c8c8c;
+                transition: all 0.4s ease-in;
             }
             ul .home{
-                border-top: 2px solid lighten(#B70569, 30);
+                border-top: 2px solid #B70569;
                 color: #B70569;
                 cursor: pointer;
             }
             ul .item:hover{
-                border-top: 2px solid lighten(#B70569, 30);
+                border-top: 2px solid #B70569;
                 color: #B70569;
                 transform: scale(1.1);
                 cursor: pointer;
@@ -36,7 +36,7 @@
     }
     .header-title{
         width: 85%;
-        margin: 0 auto;
+        margin: 40px auto;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -44,15 +44,14 @@
             width: 50%;
             color: rgb(183, 5, 105);;
             font-weight: 900;
-            font-family: sans-serif;
-            margin: 60px 0px 90px 0px;
-        
+            padding: 55px 0px 90px 0px;
             h1{
                 font-size: 55px;
             }
             p{
-                font-size: 20px;
+                font-size: 25px;
                 padding: 20px 0px;
+                
             }
             .join-us{
                 margin-top: 20px;
@@ -63,21 +62,20 @@
                 border-radius: 5px;
                 font-size: 18px;
                 background-color: #FFF;
-                font-weight: 600;
-                transition: 1s;
+                font-weight: 500;
+                transition: all 1s;
                 &:hover{
                     cursor: pointer;
                     border: none;
-                    outline: none;
-                    box-shadow: 0px 10px 10px lighten(#B70569, 30) ;
+                    box-shadow: 0px 5px 5px #B70569 ;
                 }
             }
         }
 
         }
-        .illustration{
-            margin-top: 20px;
-            margin-bottom: -10px;
-        }
+        // .illustration{
+        //     margin-top: 20px;
+        //     margin-bottom: 5px;
+        // }
     }
 }
