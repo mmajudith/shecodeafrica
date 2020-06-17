@@ -6,7 +6,7 @@ function Form() {
       <form>
            <fieldset>
                 <legend>We're Listening</legend>
-                {/* <div className="input-wrapper"> */}
+                
                     <div className="input-wrapper">
                         <input type="text" placeholder="FullName" className="fullname" />
                         <input type="text" placeholder="Email" className="email"/>   
@@ -18,7 +18,6 @@ function Form() {
                         <button type="submit">Submit</button>
                     </div>
 
-                {/* </div> */}
                 
             </fieldset>
       </form>

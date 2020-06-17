@@ -5,7 +5,7 @@ footer{
     color: #FFF;
     .footer-nav{
         width: 85%;
-        margin: auto;
+        margin: auto auto;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -49,5 +49,30 @@ footer{
         background-color: rgb(58,58,58);
         padding: 30px;
         cursor: pointer;
+    }
+    @include mq(1296px){
+        .footer-nav{
+            width: 95%;
+            margin: auto auto;
+        }
+    }
+    @include mq(1199px){
+        .footer-nav{
+            width: 85%;
+            margin: auto auto;
+        }
+    }
+    @include mq(1100px){
+        .footer-nav{
+            width: 95%;
+            margin: auto auto;
+        }
+    }
+    @include mq(768px){
+        .footer-nav{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

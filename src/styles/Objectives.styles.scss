@@ -1,3 +1,16 @@
+@mixin mq($arg...){
+    @if length($arg) == 1{
+        @media screen and (max-width: nth($arg, 1)){
+            @content;
+        }
+    }
+    @if length($arg) == 2{
+        @media screen and (max-width: nth($arg, 1) and (min-width: nth($arg, 2))){
+            @content;
+        }
+    }
+}
+
 .objectives-wrapper{
     width: 85%;
     margin: 0 auto;
@@ -31,6 +44,46 @@
         width: 35%;
         ul li{
             line-height: 20px;
+        }
+    }
+}
+
+@include mq(1296px){
+    .objectives-wrapper{
+        width: 95%;
+        margin: 40px auto;
+    }
+}
+@include mq(1199px){
+    .objectives-wrapper{
+        width: 85%;
+        margin: 40px auto;
+    }
+}
+
+@include mq(1140px){
+    .objectives-wrapper{
+        .vision,.mission,.value{
+            width: ( 100% / 3);
+            margin: 65px 20px;
+        }
+    }
+}
+
+@include mq(1100px){
+    .objectives-wrapper{
+        width: 95%;
+        margin: 40px auto;
+    }
+}
+
+@include mq(768px){
+    .objectives-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .vision,.mission,.value{
+            width: 50%
         }
     }
 }

@@ -1,3 +1,16 @@
+@mixin mq($arg...){
+    @if length($arg) == 1{
+        @media screen and (max-width: nth($arg, 1)){
+            @content;
+        }
+    }
+    @if length($arg) == 2{
+        @media screen and (max-width: nth($arg, 1) and (min-width: nth($arg, 2))){
+            @content;
+        }
+    }
+}
+
 form{
     width: 85%;
     margin: 120px auto 40px;
@@ -74,4 +87,48 @@ form{
         
     }
     
+}
+
+@include mq(1296px){
+    form{
+        width: 95%;
+        margin: 120px auto 40px;
+    }
+}
+
+@include mq(1199px){
+    form{
+        width: 85%;
+        margin: 120px auto 40px;
+    }
+}
+
+@include mq(1100px){
+    form{
+        width: 95%;
+        margin: 120px auto 40px;
+    }
+}
+
+@include mq(768px){
+    form{
+        fieldset{
+            .input-wrapper{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                input{
+                    width: 98%;
+                    margin: auto auto;
+
+                }
+                .fullname{
+                    margin: 0px;
+                }
+                .email{
+                    margin: 20px 0px;
+                }
+            }
+        }
+    }
 }

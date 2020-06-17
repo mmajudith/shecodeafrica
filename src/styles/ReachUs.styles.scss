@@ -1,9 +1,22 @@
+@mixin mq($arg...){
+    @if length($arg) == 1{
+        @media screen and (max-width: nth($arg, 1)){
+            @content;
+        }
+    }
+    @if length($arg) == 2{
+        @media screen and (max-width: nth($arg, 1) and (min-width: nth($arg, 2))){
+            @content;
+        }
+    }
+}
+
 .reach-us-wrapper{
     width: 100%;
     margin: 50px auto;
     color: #000000;
     div h2{
-        width: 50%;
+        width: 100%;
         margin: 30px auto;
         text-align: center;
         font-weight: 900;
@@ -69,4 +82,48 @@
             }
         }
     }
-}
+    @include mq(1321px){
+        .activities-wrapper{
+            .sponsor{
+                width: 25%;
+            }
+        }
+    }
+    
+    @include mq(1296px){
+        .activities-wrapper{
+            width: 95%;
+            margin: auto auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10px;
+            .slack,.social-media,.event,.sponsor{
+                width: 100%;
+                .pad-top{
+                    padding-top: 0px;
+                }
+            }
+        }
+    }
+    @include mq(1199px){
+        .activities-wrapper{
+            width: 85%;
+            margin: auto auto;
+        }
+    }
+    @include mq(1100px){
+        .activities-wrapper{
+            width: 95%;
+            margin: auto auto;
+        }
+    }
+    @include mq(768px){
+        .activities-wrapper{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+ }
