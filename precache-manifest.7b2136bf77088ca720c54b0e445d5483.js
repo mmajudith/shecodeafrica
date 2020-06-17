@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "937abab69f3fc1c13c8b3decda85fe1b",
+    "revision": "32da6066787d8c0bfd4d1d64eb219b42",
     "url": "/shecodeafrica/index.html"
   },
   {
-    "revision": "18ee33658201ec45bd37",
-    "url": "/shecodeafrica/static/css/main.70d0ba93.chunk.css"
+    "revision": "3f60c6cf4c51fa560538",
+    "url": "/shecodeafrica/static/css/main.83b37943.chunk.css"
   },
   {
-    "revision": "b969fb5b1e218e241361",
-    "url": "/shecodeafrica/static/js/2.f0866ec7.chunk.js"
+    "revision": "b4019c8bac1fc06229ac",
+    "url": "/shecodeafrica/static/js/2.ad4b7aa3.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.LICENSE.txt"
+    "url": "/shecodeafrica/static/js/2.ad4b7aa3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "18ee33658201ec45bd37",
-    "url": "/shecodeafrica/static/js/main.551466e4.chunk.js"
+    "revision": "3f60c6cf4c51fa560538",
+    "url": "/shecodeafrica/static/js/main.2e624c79.chunk.js"
   },
   {
     "revision": "a6dc7d51dff139292c21",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8e7eeef6b0ca6a973fcaa46c6ab38c47",
     "url": "/shecodeafrica/static/media/flag.8e7eeef6.svg"
+  },
+  {
+    "revision": "23a63bd54741be2a9e84e1bbd8b8524a",
+    "url": "/shecodeafrica/static/media/icon-hamburger.23a63bd5.svg"
   },
   {
     "revision": "c15b915284e0eb6ace7fd850ec809fe2",

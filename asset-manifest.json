@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/shecodeafrica/static/css/main.70d0ba93.chunk.css",
-    "main.js": "/shecodeafrica/static/js/main.551466e4.chunk.js",
-    "main.js.map": "/shecodeafrica/static/js/main.551466e4.chunk.js.map",
+    "main.css": "/shecodeafrica/static/css/main.83b37943.chunk.css",
+    "main.js": "/shecodeafrica/static/js/main.2e624c79.chunk.js",
+    "main.js.map": "/shecodeafrica/static/js/main.2e624c79.chunk.js.map",
     "runtime-main.js": "/shecodeafrica/static/js/runtime-main.7aecabeb.js",
     "runtime-main.js.map": "/shecodeafrica/static/js/runtime-main.7aecabeb.js.map",
-    "static/js/2.f0866ec7.chunk.js": "/shecodeafrica/static/js/2.f0866ec7.chunk.js",
-    "static/js/2.f0866ec7.chunk.js.map": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.map",
+    "static/js/2.ad4b7aa3.chunk.js": "/shecodeafrica/static/js/2.ad4b7aa3.chunk.js",
+    "static/js/2.ad4b7aa3.chunk.js.map": "/shecodeafrica/static/js/2.ad4b7aa3.chunk.js.map",
     "index.html": "/shecodeafrica/index.html",
-    "precache-manifest.10482bcc8a63b703791ed620e7f88dd9.js": "/shecodeafrica/precache-manifest.10482bcc8a63b703791ed620e7f88dd9.js",
+    "precache-manifest.7b2136bf77088ca720c54b0e445d5483.js": "/shecodeafrica/precache-manifest.7b2136bf77088ca720c54b0e445d5483.js",
     "service-worker.js": "/shecodeafrica/service-worker.js",
-    "static/css/main.70d0ba93.chunk.css.map": "/shecodeafrica/static/css/main.70d0ba93.chunk.css.map",
-    "static/js/2.f0866ec7.chunk.js.LICENSE.txt": "/shecodeafrica/static/js/2.f0866ec7.chunk.js.LICENSE.txt",
+    "static/css/main.83b37943.chunk.css.map": "/shecodeafrica/static/css/main.83b37943.chunk.css.map",
+    "static/js/2.ad4b7aa3.chunk.js.LICENSE.txt": "/shecodeafrica/static/js/2.ad4b7aa3.chunk.js.LICENSE.txt",
     "static/media/EstherJolugba.jpg": "/shecodeafrica/static/media/EstherJolugba.6a90f961.jpg",
     "static/media/PeaceAmara.jpg": "/shecodeafrica/static/media/PeaceAmara.60d4c426.jpg",
     "static/media/PreciousCadeton.jpg": "/shecodeafrica/static/media/PreciousCadeton.3a20be06.jpg",
     "static/media/facebook.svg": "/shecodeafrica/static/media/facebook.3ae13bc8.svg",
     "static/media/flag.svg": "/shecodeafrica/static/media/flag.8e7eeef6.svg",
+    "static/media/icon-hamburger.svg": "/shecodeafrica/static/media/icon-hamburger.23a63bd5.svg",
     "static/media/instagram.svg": "/shecodeafrica/static/media/instagram.c15b9152.svg",
     "static/media/she-code-africa-logo.svg": "/shecodeafrica/static/media/she-code-africa-logo.ee93dc00.svg",
     "static/media/shecodeafrica-landing-img.jpg": "/shecodeafrica/static/media/shecodeafrica-landing-img.45af3953.jpg",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.7aecabeb.js",
-    "static/js/2.f0866ec7.chunk.js",
-    "static/css/main.70d0ba93.chunk.css",
-    "static/js/main.551466e4.chunk.js"
+    "static/js/2.ad4b7aa3.chunk.js",
+    "static/css/main.83b37943.chunk.css",
+    "static/js/main.2e624c79.chunk.js"
   ]
 }
